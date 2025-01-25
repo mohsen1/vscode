@@ -29,7 +29,7 @@
 	"vscode-debugprotocol": "^1.0.0",
     "vscode-textmate": "^1.0.9",
     "native-keymap": "^0.1.0",
-    "winreg": "0.0.12",
+    "winreg": "0.0.18",
     "yauzl": "^2.3.1"
   },
   "devDependencies": {
