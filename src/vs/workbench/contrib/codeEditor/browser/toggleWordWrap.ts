@@ -302,6 +302,7 @@ registerWorkbenchContribution2(EditorWordWrapContextKeyTracker.ID, EditorWordWra
 
 registerEditorContribution(ToggleWordWrapController.ID, ToggleWordWrapController, EditorContributionInstantiation.Eager); // eager because it needs to change the editor word wrap configuration
 registerDiffEditorContribution(DiffToggleWordWrapController.ID, DiffToggleWordWrapController);
+// Registers 'editor.action.toggleWordWrap' (Alt+Z) as an editor action available in any code editor.
 registerEditorAction(ToggleWordWrapAction);
 
 MenuRegistry.appendMenuItem(MenuId.EditorTitle, {
